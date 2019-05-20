@@ -907,6 +907,7 @@ Rule:
 - DOMAIN,ip.bjango.com,Domestic
 # > Other
 - DOMAIN-SUFFIX,40017.cn,Domestic
+- DOMAIN-SUFFIX,broadcasthe.net,Domestic
 - DOMAIN-SUFFIX,cailianpress.com,Domestic
 - DOMAIN-SUFFIX,chdbits.co,Domestic
 - DOMAIN-SUFFIX,chushou.tv,Domestic
@@ -1445,12 +1446,15 @@ Rule:
 - IP-CIDR,222.73.156.235/32,AdBlock
 
 # > Telegram
+- IP-CIDR,67.198.55.0/24,Proxy
 - IP-CIDR,91.108.4.0/22,Proxy
 - IP-CIDR,91.108.8.0/22,Proxy
 - IP-CIDR,91.108.12.0/22,Proxy
 - IP-CIDR,91.108.16.0/22,Proxy
 - IP-CIDR,91.108.56.0/22,Proxy
+- IP-CIDR,109.239.140.0/24,Proxy
 - IP-CIDR,149.154.160.0/20,Proxy
+- IP-CIDR,205.172.60.0/22,Proxy
 
 # (Extra IP-CIRD)
 # > Google
